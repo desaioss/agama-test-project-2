@@ -1,0 +1,19 @@
+{
+    "projectName": "test-project",
+    "description": "test",
+    "type": "community",
+    "author": "desaioss",
+    "version": "0.0.1",
+    "authorWebsite": "https://github.com/desaioss/agama-test-project-2",
+    "githubUri": "https://github.com/desaioss/agama-test-project-2",
+    "license": "apache-2.0",
+    "lastUpdated": "1731050391832",
+    "tags": [
+        "test"
+    ],
+    "noDirectLaunch": [],
+    "configs": {
+        "co.acme.myflow": {}
+    },
+    "name": "test-project"
+}

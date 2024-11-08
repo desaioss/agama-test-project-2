@@ -1,0 +1,99 @@
+{
+	"nodes": [
+		{
+			"id": "startNode-1e06105e-7708-4fc5-85cd-183e0bcaba70",
+			"type": "startNode",
+			"sourcePosition": "right",
+			"position": {
+				"x": 30,
+				"y": 30
+			},
+			"data": {
+				"id": "startNode-1e06105e-7708-4fc5-85cd-183e0bcaba70",
+				"type": "startNode",
+				"position": {
+					"x": 30,
+					"y": 40
+				},
+				"agamaData": {
+					"isTopLevelFlow": true,
+					"basepath": "",
+					"configParams": "{}",
+					"nodeIcon": "material-symbols:line-start-square",
+					"timeout": "",
+					"inputs": "",
+					"configs": "",
+					"flowname": "co.acme.myflow",
+					"displayName": "myflow",
+					"creationDate": "08/11/2024",
+					"hasComment": true,
+					"comment": "This is test description"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 123
+			},
+			"selected": false
+		},
+		{
+			"id": "logNode-fc03c813-115d-48f3-88b6-a26249d95dfd",
+			"type": "logNode",
+			"position": {
+				"x": 280,
+				"y": 30
+			},
+			"data": {
+				"id": "logNode-fc03c813-115d-48f3-88b6-a26249d95dfd",
+				"type": "logNode",
+				"position": {
+					"x": 280,
+					"y": 30
+				},
+				"previousNodeId": "startNode-1e06105e-7708-4fc5-85cd-183e0bcaba70",
+				"agamaData": {
+					"logMessage": "error",
+					"logLevel": "error",
+					"nodeIcon": "octicon:log-16",
+					"nodeColor": "",
+					"titleColor": "",
+					"descColor": "",
+					"displayName": "",
+					"hasComment": true,
+					"comment": "asdf"
+				}
+			},
+			"measured": {
+				"width": 170,
+				"height": 123
+			},
+			"selected": true
+		}
+	],
+	"edges": [
+		{
+			"id": "startNode-1e06105e-7708-4fc5-85cd-183e0bcaba70-logNode-fc03c813-115d-48f3-88b6-a26249d95dfd",
+			"type": "default",
+			"source": "startNode-1e06105e-7708-4fc5-85cd-183e0bcaba70",
+			"target": "logNode-fc03c813-115d-48f3-88b6-a26249d95dfd",
+			"labelBgPadding": [
+				8,
+				4
+			],
+			"labelBgBorderRadius": 4,
+			"label": "",
+			"labelBgStyle": {
+				"fill": "#009688",
+				"color": "#ffffff",
+				"fillOpacity": 0.7
+			},
+			"labelShowBg": true,
+			"sourceHandle": "source_startNode-1e06105e-7708-4fc5-85cd-183e0bcaba70"
+		}
+	],
+	"viewport": {
+		"x": 0,
+		"y": 0,
+		"zoom": 1
+	}
+}

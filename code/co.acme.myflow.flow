@@ -1,0 +1,5 @@
+// This is test description
+Flow co.acme.myflow
+     Basepath ""
+// asdf
+Log "@error " error
